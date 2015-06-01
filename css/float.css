@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-color: #556b2f;
+    min-height: 500px;
+    width: 700px;
+    margin: auto;
+}
+
+#cabecalho {
+    height: 100px;
+    background-color: #228b22;
+}
+
+#menu {
+    width: 20%;
+    background-color: black;
+    height: 400px;
+    color: #b8860b;
+    float: left;
+}
+
+#conteudo {
+    /*background-color: blue;*/
+    float: right;
+    width: 80%;
+}
+
+#conteudo .bloco {
+    height: 100px;
+    margin: 10px;
+    background-color: #cccccc;
+}

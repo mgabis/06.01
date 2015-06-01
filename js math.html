@@ -1,0 +1,51 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+	"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+	<title></title>
+	<style>
+		.green{
+			color:green;
+		}
+		.blue{
+			color:blue;
+		}
+		.red{
+			color:red
+		}
+	</style>
+</head>
+<body>
+<script type="text/javascript">
+
+	var n1, n2, n3, soma, subt, mult, div, resto;
+
+	n1 = parseInt(prompt("Informe o 1º número inteiro", ""));
+	n2 = parseInt(prompt("Informe o 2º número inteiro", ""));
+
+	document.write('<h3>1º número: <span class="green">' + n1 + '</span></h3>')
+	document.write('<h3>2º número: <span class="green">' + n2 + '</span></h3>')
+
+	soma = n1 + n2;
+	subt = n1 - n2;
+	mult = n1 * n2;
+	div = n1 / n2;
+	resto = n1 % n2;
+
+	document.write('<h3>Soma: <span class="red">' + soma + '</span></h3>')
+	document.write('<h3>Subtração: <span class="red">' + subt + '</span></h3>')
+	document.write('<h3>Multiplicação: <span class="red">' + mult + '</span></h3>')
+	document.write('<h3>Divisão: <span class="red">' + div + '</span></h3>')
+	document.write('<h3>Resto da divisão inteira: <span class="red">' + resto + '</span></h3>')
+
+	n3 = prompt("Informe o 3º número", "");
+
+	n3 = n3.replace(',', '.');
+
+	n3 = parseFloat(n3);
+
+	document.write('<h3>3º número: <span class="blue">' + n3 + '</span></h3>')
+
+</script>
+</body>
+</html>
