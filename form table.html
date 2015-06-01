@@ -7,7 +7,7 @@
 </head>
 <body>
 <form>
-	<table cellpadding="0" cellspacing="0" border="0">
+	<table>
 		<tr>
 			<td class="titulo_form" colspan="2">
 				Formulário
@@ -27,18 +27,20 @@
 		</tr>
 		<tr>
 			<td>Confirmar senha:</td>
-			<td></td>
+			<td><input type="password" name="senha"></td>
 		</tr>
-		<tr>
-			<td rowspan="2">
+                <tr>
+			<td rowspan="2" >
 				Sexo:
-			</td>
-			<td>
-				Masculino
+                        </td>
+                        <td name="sexo">
+                            <input type="radio" name="sexo">
+                            Masculino
 				</td>
 			</tr>
 		<tr>
-			<td>
+                    <td name="sexo">
+                        <input type="radio" name="sexo">
 				Feminino
 			</td>
 		</tr>
@@ -55,21 +57,23 @@
 			<td>
 				<select>
 					<option value="">Selecione</option>
-					<option value="porto_alegre">Porto Alegre</option>
-					<option value="canoas">Canoas</option>
-					<option value="alvorada">Alvorada</option>
-					<option value="eldorado">Eldorado</option>
-					<option value="gravatai">Gravataí</option>
-					<option value="esteio">Esteio</option>
-					<option value="sapucaia">Sapucaia</option>
-					<option value="cachoeirinha">Cachoeirinha</option>
-					<option value="guaiba">Guaíba</option>
+					<option value="1">Porto Alegre</option>
+					<option value="2">Canoas</option>
+					<option value="3">Alvorada</option>
+					<option value="4">Eldorado</option>
+					<option value="5">Gravataí</option>
+					<option value="6">Esteio</option>
+					<option value="7">Sapucaia</option>
+					<option value="8">Cachoeirinha</option>
+					<option value="9">Guaíba</option>
 				</select>
 			</td>
 		</tr>
 		<tr>
 			<td class="btns-acao" colspan="2">
-				<input type="button" value="Validar"> <input type="reset"> <input type="submit" disabled>
+				<input type="button" value="Validar">
+                                <input type="reset">
+                                <input type="submit">
 			</td>
 
 		</tr>

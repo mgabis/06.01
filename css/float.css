@@ -8,11 +8,18 @@ body {
     min-height: 500px;
     width: 700px;
     margin: auto;
+    
 }
 
 #cabecalho {
     height: 100px;
     background-color: #228b22;
+}
+#cabecalho h1{
+    margin:0;
+    text-align: center;
+    padding-top: 30px;
+    
 }
 
 #menu {
@@ -30,7 +37,7 @@ body {
 }
 
 #conteudo .bloco {
-    height: 100px;
+    min-height: 100px;
     margin: 10px;
     background-color: #cccccc;
 }
